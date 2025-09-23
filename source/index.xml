@@ -44,6 +44,13 @@
                 <ivdnt:include href="help-en-info.xml"/>
             </ivdnt:tab>
         </ivdnt:tabs>
+
+        <footer class="container gtb-footer">© <script>document.write(new Date().getFullYear());</script> Instituut voor de Nederlandse Taal.
+            Zie onze
+            <a target="_blank" href="https://ivdnt.org/privacyverklaring/">privacyverklaring</a> &amp;
+            <a target="_blank" href="https://ivdnt.org/gebruiksvoorwaarden/">gebruiksvoorwaarden</a>.
+        </footer>
+
         <div class="auxiliaries">
             <!-- Verborgen hulpstukken -->
             <ivdnt:formulier class="gtb-resultaatknoppen" id="resultaatknoppen" xmlns:ivdnt="http://www.ivdnt.org/xslt/namespaces">

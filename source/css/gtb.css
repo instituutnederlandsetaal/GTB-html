@@ -888,3 +888,13 @@ a:focus {
 .dropdown-menu>.active>a:hover {
     background-color: #111971;
 }
+
+/* footer */
+
+.gtb-footer {
+    font-size: 90%;
+    font-style: italic;
+    margin-top: 2em;
+    margin-bottom: 0.6em;
+    text-align: center;
+}
