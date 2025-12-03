@@ -11,10 +11,10 @@
     <xsl:param name="UUID" as="xs:string" required="yes"/>
     
     <xsl:param name="VERSIONINFO" as="xs:string" select="''"/>
-    <xsl:param name="BASEARTICLEURL" as="xs:string" required="yes"/> <!-- for development use: "http://gtb.inl.nl/iWDB/search?actie=article", for test use: "http://gtb.ato.inl.nl/iWDB/search?actie=article" -->
-    <xsl:param name="BASEARTICLECONTENTURL" as="xs:string" required="yes"/> <!-- for development use: "http://gtb.inl.nl/iWDB/search?actie=article_content", for test use: "http://gtb.ato.inl.nl/iWDB/search?actie=article_content" -->
-    <xsl:param name="BASESEARCHURL" as="xs:string" required="yes"/> <!-- for development use: "../redirect.php?actie=results", for test use: "http://gtb.ato.inl.nl/iWDB/search?actie=results" -->
-    <xsl:param name="BASELISTURL" as="xs:string" required="yes"/> <!-- for development use: "redirect.php?actie=list", for test use: "http://gtb.ato.inl.nl/iWDB/search?actie=list" -->
+    <xsl:param name="BASEARTICLEURL" as="xs:string" required="yes"/> <!-- for development use: "https://gtb.ivdnt.org/iWDB/search?actie=article", for test use: "http://gtb.ato.ivdnt.loc/iWDB/search?actie=article" -->
+    <xsl:param name="BASEARTICLECONTENTURL" as="xs:string" required="yes"/> <!-- for development use: "https://gtb.ivdnt.org/iWDB/search?actie=article_content", for test use: "http://gtb.ato.ivdnt.loc/iWDB/search?actie=article_content" -->
+    <xsl:param name="BASESEARCHURL" as="xs:string" required="yes"/> <!-- for development use: "../redirect.php?actie=results", for test use: "http://gtb.ato.ivdnt.loc/iWDB/search?actie=results" -->
+    <xsl:param name="BASELISTURL" as="xs:string" required="yes"/> <!-- for development use: "redirect.php?actie=list", for test use: "http://gtb.ato.ivdnt.loc/iWDB/search?actie=list" -->
     <xsl:param name="PLAUSIBLE_TRACKING_DOMAIN" as="xs:string" select="''"/> <!-- Plausible tracking domain; if not supplied, no tracking code will be generated (useful during debugging/testing). -->
 
     <!-- Space-separated dictionary abbreviations. Default is all dictionaries. -->
